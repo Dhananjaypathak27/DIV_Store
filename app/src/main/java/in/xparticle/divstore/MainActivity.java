@@ -90,8 +90,8 @@ public class MainActivity extends AppCompatActivity {
                             Toast.makeText(MainActivity.this, "login successfully...", Toast.LENGTH_SHORT).show();
                             loadingBar.dismiss();
 
-                          //  Intent intent = new Intent(MainActivity.this,HomeActivity.class);
-                           // startActivity(intent);
+                            Intent intent = new Intent(MainActivity.this,HomeActivity.class);
+                            startActivity(intent);
                         }
                         else{
                             Toast.makeText(MainActivity.this, "Password does not match", Toast.LENGTH_SHORT).show();
